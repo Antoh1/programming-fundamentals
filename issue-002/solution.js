@@ -1,3 +1,11 @@
 function strictCheck(a, b) {
-    // implement your solution here
+    if(a===b){
+    	return 1; //checks for strict equality
+    }
+    else if(a==b){
+    	return true; //checks for loose equality
+    }
+    else if(a!=b){
+    	return false; //checks for non-equal
+    }
 }
