@@ -9,7 +9,7 @@ function dataTypeCheck(a) {
         return 0;
     }
     //checks for an ordinary string arguments
-    else if ( typeof a ==="string" && Number(a)=== false) {
+    else if ( typeof a ==="string" && typeof Number(a) !== "number" ) {
      return "hello" + " "+ a ;
     }
     //checks for an integer argument
